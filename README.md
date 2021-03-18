@@ -22,7 +22,8 @@ The bells sing with joy overhead. The returning army is victorious!
     The soldier shrugs and goes about his day. You head home and fall asleep, satisfied. END
 ```
 
-The parser reads out a section of text for you, and then gives you a list of options (preceded by an arrow in the story file) to choose from, but only if they have the same amount of spacing before them (the spaces are counted by two). 
+The parser reads out a section of text for you, and then gives you a list of options (preceded by an arrow in the story file) to choose from, but only if they have the same amount of spacing before them (the spaces are counted by two).  
 If the section it is supposed to read out is a colon followed by a number (":123"), then it jumps to that line in the file.
-If there are no options to be selected, it ends the game.
-Something to note is that it copies the entire file to memory before playing it, so you can't change a file mid-game.
+If there are no options to be selected, it ends the game.  
+Something to note is that it copies the entire file to memory before playing it, so you can't change a file mid-game.  
+All game files must be in a folder entitled "game-files"
